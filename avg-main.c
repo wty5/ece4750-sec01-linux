@@ -1,8 +1,14 @@
 #include <stdio.h>
 
-int avg( int x, int y )
+// int avg( int x, int y )
+// {
+//   int sum = x + y;
+//   return sum / 2;
+// }
+
+unsigned int avg( unsigned int x, unsigned int y )
 {
-  int sum = x + y;
+  unsigned int sum = x + y;
   return sum / 2;
 }
 
@@ -14,3 +20,4 @@ int main()
   printf( "average of %d and %d is %d\n", a, b, c );
   return  0;
 }
+
